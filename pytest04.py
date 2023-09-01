@@ -1,7 +1,7 @@
 W = float(input('ความกว้าง : '))
 H = float(input('ความยาว : '))
 L = float(input('ความสูง : '))
-WHL = float((((W + H) * L) * 2) / 5)
+WHL = float((((W + H) * L) * 2) + ((W * L) * 2) / 5)
 K = f"{WHL:.0f}"
 print('|-----------------------------')
 print(f'| ใช้สีทั้หมด : {K} แกลอน')
